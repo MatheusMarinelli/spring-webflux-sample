@@ -1,0 +1,10 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/codetickets_db
+    username: myuser
+    password: mypassword
+  flyway:
+    url: jdbc:postgresql://localhost:5432/codetickets_db
+    user: myuser
+    password: mypassword
+    baselineOnMigrate: true
